@@ -1,0 +1,128 @@
+{
+  "nav": {
+  "home": "Início",
+  "about": "Sobre",
+  "projects": "Projetos",
+  "skills": "Habilidades",
+  "experience": "Experiência",
+  "education": "Formação",
+  "achievements": "Conquistas",
+  "contact": "Contato",
+  "openMenu": "Abrir menu",
+  "closeMenu": "Fechar menu",
+  "language": "Idioma"
+  },
+  "actions": {
+  "viewWork": "Ver trabalhos",
+  "getInTouch": "Fale comigo",
+  "viewMore": "Ver mais",
+  "viewAll": "Ver todos",
+  "explore": "Explorar",
+  "visitSite": "Visitar site",
+  "viewGithub": "GitHub",
+  "viewDemo": "Ver projeto",
+  "send": "Enviar mensagem"
+  },
+  "hero": {
+  "codeLabel": "Perfil"
+  },
+  "sections": {
+  "about": {
+  "eyebrow": "Sobre",
+  "title": "Construindo soluções para o mundo",
+  "trajectory": "Trajetória",
+  "interests": "Interesses profissionais",
+  "workingStyle": "Como trabalho",
+  "goals": "Direção"
+  },
+  "skills": {
+  "eyebrow": "Habilidades",
+  "title": "Tecnologias e competências",
+  "pageTitle": "Habilidades",
+  "pageIntro": "Conhecimentos técnicos e competências profissionais que fazem parte da forma como desenvolvo e resolvo problemas.",
+  "technicalTitle": "Habilidades técnicas",
+  "professionalTitle": "Habilidades profissionais"
+  },
+  "projects": {
+  "eyebrow": "Projetos",
+  "title": "Trabalhos selecionados",
+  "pageTitle": "Projetos",
+  "pageIntro": "Uma coleção de sistemas, produtos, experimentos e sites que desenvolvi."
+  },
+  "experience": {
+  "eyebrow": "Experiência",
+  "title": "Experiência e prática",
+  "pageTitle": "Experiência",
+  "pageIntro": "Minha experiência profissional, responsabilidades e as tecnologias presentes no trabalho."
+  },
+  "education": {
+  "eyebrow": "Formação",
+  "title": "Formação",
+  "pageTitle": "Formação",
+  "pageIntro": "Curso, instituição e status acadêmico atual."
+  },
+  "achievements": {
+  "eyebrow": "Conquistas",
+  "title": "Marcos da trajetória",
+  "pageTitle": "Conquistas",
+  "pageIntro": "Certificados, cursos, eventos, competições e outras experiências relevantes."
+  },
+  "contact": {
+  "eyebrow": "Contato",
+  "title": "Vamos construir algo",
+  "pageTitle": "Contato",
+  "pageIntro": "Para projetos freelance, colaborações e oportunidades profissionais.",
+  "name": "Nome",
+  "email": "E-mail",
+  "message": "Mensagem",
+  "namePlaceholder": "Seu nome",
+  "emailPlaceholder": "seu@email.com",
+  "messagePlaceholder": "Conte um pouco sobre seu projeto..."
+  }
+  },
+  "status": {
+  "completed": "Concluído",
+  "in-progress": "Em andamento",
+  "prototype": "Protótipo",
+  "coming-soon": "Em breve",
+  "archived": "Arquivado"
+  },
+  "skillLevels": {
+  "exploring": "Explorando",
+  "working": "Em uso",
+  "daily": "No dia a dia"
+  },
+  "skillCategories": {
+  "languages": "Idiomas",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "database": "Banco de dados",
+  "tools": "Ferramentas"
+  },
+  "professionalSkills": {
+  "problem-solving": "Resolução de problemas",
+  "logical-thinking": "Raciocínio lógico",
+  "system-thinking": "Pensamento sistêmico",
+  "research": "Pesquisa",
+  "learning-adaptation": "Aprendizado e adaptação",
+  "attention-to-detail": "Atenção aos detalhes",
+  "independent-work": "Autonomia",
+  "project-ownership": "Responsabilidade pelo projeto"
+  },
+  "achievementKinds": {
+  "certificate": "Certificado",
+  "course": "Curso",
+  "event": "Evento",
+  "achievement": "Conquista",
+  "special-project": "Projeto especial",
+  "other": "Outro"
+  },
+  "footer": {
+  "rights": "Gabriel Nardes. Todos os direitos reservados.",
+  "builtWith": "Desenvolvido com Next.js"
+  },
+  "form": {
+  "notice": "Envie sua mensagem pelo formulário de contato."
+  }
+  }
+  

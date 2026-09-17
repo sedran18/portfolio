@@ -1,0 +1,128 @@
+{
+  "nav": {
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Skills",
+  "experience": "Experience",
+  "education": "Education",
+  "achievements": "Achievements",
+  "contact": "Contact",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "language": "Language"
+  },
+  "actions": {
+  "viewWork": "View work",
+  "getInTouch": "Get in touch",
+  "viewMore": "View more",
+  "viewAll": "View all",
+  "explore": "Explore",
+  "visitSite": "Visit site",
+  "viewGithub": "GitHub",
+  "viewDemo": "Live demo",
+  "send": "Send message"
+  },
+  "hero": {
+  "codeLabel": "Profile"
+  },
+  "sections": {
+  "about": {
+  "eyebrow": "About",
+  "title": "Building solutions for the world",
+  "trajectory": "Background",
+  "interests": "Professional interests",
+  "workingStyle": "How I work",
+  "goals": "Direction"
+  },
+  "skills": {
+  "eyebrow": "Skills",
+  "title": "What I build with",
+  "pageTitle": "Skills",
+  "pageIntro": "A combination of technical knowledge and professional skills that shape how I build and solve problems.",
+  "technicalTitle": "Technical Skills",
+  "professionalTitle": "Professional Skills"
+  },
+  "projects": {
+  "eyebrow": "Projects",
+  "title": "Selected work",
+  "pageTitle": "Projects",
+  "pageIntro": "A collection of systems, products, experiments, and websites I've built."
+  },
+  "experience": {
+  "eyebrow": "Experience",
+  "title": "Experience and practice",
+  "pageTitle": "Experience",
+  "pageIntro": "My professional experience, responsibilities, and the technologies behind the work."
+  },
+  "education": {
+  "eyebrow": "Education",
+  "title": "Education",
+  "pageTitle": "Education",
+  "pageIntro": "Degree, institution, and current academic status."
+  },
+  "achievements": {
+  "eyebrow": "Achievements",
+  "title": "Milestones along the way",
+  "pageTitle": "Achievements",
+  "pageIntro": "Certificates, courses, events, competitions, and other relevant milestones."
+  },
+  "contact": {
+  "eyebrow": "Contact",
+  "title": "Let's build something",
+  "pageTitle": "Contact",
+  "pageIntro": "For freelance projects, collaborations, and professional opportunities.",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "namePlaceholder": "Your name",
+  "emailPlaceholder": "you@example.com",
+  "messagePlaceholder": "Tell me a little about your project..."
+  }
+  },
+  "status": {
+  "completed": "Completed",
+  "in-progress": "In progress",
+  "prototype": "Prototype",
+  "coming-soon": "Coming soon",
+  "archived": "Archived"
+  },
+  "skillLevels": {
+  "exploring": "Exploring",
+  "working": "In use",
+  "daily": "Daily"
+  },
+  "skillCategories": {
+    "languages": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",   
+    "tools": "Tools"
+  },
+  "professionalSkills": {
+    "problem-solving": "Problem Solving",
+    "logical-thinking": "Logical Thinking",
+    "system-thinking": "Systems Thinking",
+    "research": "Research",
+    "learning-adaptation": "Learning & Adaptation",
+    "attention-to-detail": "Attention to Detail",
+    "independent-work": "Independent Work",
+    "project-ownership": "Project Ownership"
+  },
+  "achievementKinds": {
+    "certificate": "Certificate",
+    "course": "Course",
+    "event": "Event",
+    "achievement": "Achievement",
+    "special-project": "Special Project",
+    "other": "Other"
+  },
+  "footer": {
+    "rights": "Gabriel Nardes. All rights reserved.",
+    "builtWith": "Built with Next.js"
+  },
+  "form": {
+    "notice": "Your message will be handled through the contact form."
+  }
+  }
+  
