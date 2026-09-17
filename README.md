@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gabriel Nardes — Portfolio
 
-## Getting Started
+Personal portfolio website showcasing my work, experience, skills, education, and achievements as a Software Engineering student and Full-Stack Web Developer.
 
-First, run the development server:
+🌐 **Live:** [gabriel-nardes.vercel.app](https://gabriel-nardes.vercel.app)
+
+---
+
+## About
+
+I'm a Software Engineering student and Full-Stack Web Developer focused on building practical web applications.
+
+I work mainly with TypeScript, React, Next.js, Node.js, PostgreSQL, and related technologies, with experience across frontend development, backend logic, APIs, databases, and application architecture.
+
+This portfolio was built to bring my projects and professional experience together in one place.
+
+---
+
+## Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Node.js**
+* **PostgreSQL**
+* **Prisma**
+* **Framer Motion**
+* **Vercel**
+
+---
+
+## Features
+
+* Responsive design
+* Dark-themed interface
+* English and Portuguese localization
+* Project showcase
+* Skills and technology overview
+* Professional experience
+* Education
+* Achievements
+* Contact links
+* Interactive animations and micro-interactions
+* SEO-friendly structure
+
+---
+
+## Projects
+
+### SIGFrota
+
+Fleet and fuel management system developed for a public consortium.
+
+**Stack:** Next.js, TypeScript, PostgreSQL, Prisma, Docker, Zod, shadcn/ui
+
+The system covers vehicles, drivers, fueling, contracts, projects, and operational control.
+
+> Private project — source code is not publicly available.
+
+### Vitoria Beauty
+
+E-commerce platform focused on performance, security, and user experience.
+
+**Stack:** Next.js, TypeScript, Prisma, Supabase, NextAuth, Tailwind CSS, shadcn/ui
+
+### S-Chat
+
+Real-time chat application with public rooms, private messages, and AI integration.
+
+**Stack:** Node.js, TypeScript, React, Vite, WebSocket, JWT, MongoDB
+
+### RESTful API of Expenses Control
+
+REST API for personal finance management.
+
+**Stack:** Node.js, Express, MongoDB, JWT, Bcrypt, Jest, Supertest
+
+---
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sedran18/SEU-REPOSITORIO.git
+cd SEU-REPOSITORIO
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+If the project requires environment variables, create a `.env.local` file based on the variables used by the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Do not commit secrets or private credentials to the repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project follows a modular Next.js architecture, keeping content, UI components, localization, and application logic organized separately.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The portfolio is designed so that projects, skills, achievements, and other content can be updated without having to rebuild the entire page structure.
+
+---
+
+## Deployment
+
+The portfolio is deployed with **Vercel**.
+
+🌐 [gabriel-nardes.vercel.app](https://gabriel-nardes.vercel.app)
+
+---
+
+## Contact
+
+**Gabriel Nardes**
+
+* Email: [g.nardes.work@gmail.com](mailto:g.nardes.work@gmail.com)
+* GitHub: [github.com/sedran18](https://github.com/sedran18)
+* LinkedIn: [linkedin.com/in/gabriel-nardes](https://www.linkedin.com/in/gabriel-nardes)
+
+---
+
+## License
+
+This project is a personal portfolio and is not intended to be redistributed as a template or commercial product.
