@@ -33,7 +33,7 @@ export function LanguageSwitcher({
 
   return (
     <div
-      className="flex items-center gap-2"
+      className="flex shrink-0 items-center gap-2"
       role="radiogroup"
       aria-label={messages.nav.language}
     >
@@ -49,7 +49,7 @@ export function LanguageSwitcher({
             }}
             role="radio"
             aria-checked={active}
-            className={`relative h-4 cursor-pointer w-6 aspect-video overflow-hidden rounded-[2px] p-0 transition-all duration-200
+            className={`relative h-4 w-6 shrink-0 cursor-pointer overflow-hidden rounded-[2px] p-0 transition-all duration-200
               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent
               ${
                 active

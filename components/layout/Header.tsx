@@ -31,7 +31,7 @@ export function Header({ locale, messages }: HeaderProps) {
           {profile.name}
         </Link>
 
-        <nav className="hidden items-center gap-4 lg:flex xl:gap-15 w-[40%] max-w-full justify-between" aria-label="Primary">
+        <nav className="hidden items-center gap-4 lg:flex xl:gap-15 min-w-[40%] w-max max-w-full flex-nowrap justify-between" aria-label="Primary">
           <LayoutGroup>
             <div className="flex items-center gap-4">
               {navigation.map((item) => {
