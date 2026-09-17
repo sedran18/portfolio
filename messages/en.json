@@ -20,8 +20,7 @@
   "explore": "Explore",
   "visitSite": "Visit site",
   "viewGithub": "GitHub",
-  "viewDemo": "Live demo",
-  "send": "Send message"
+  "viewDemo": "Live demo"
   },
   "hero": {
   "codeLabel": "Profile"
@@ -71,13 +70,7 @@
   "eyebrow": "Contact",
   "title": "Let's build something",
   "pageTitle": "Contact",
-  "pageIntro": "For freelance projects, collaborations, and professional opportunities.",
-  "name": "Name",
-  "email": "Email",
-  "message": "Message",
-  "namePlaceholder": "Your name",
-  "emailPlaceholder": "you@example.com",
-  "messagePlaceholder": "Tell me a little about your project..."
+  "pageIntro": "For freelance projects, collaborations, and professional opportunities."
   }
   },
   "status": {
@@ -120,9 +113,6 @@
   "footer": {
     "rights": "Gabriel Nardes. All rights reserved.",
     "builtWith": "Built with Next.js"
-  },
-  "form": {
-    "notice": "Your message will be handled through the contact form."
   }
-  }
+}
   

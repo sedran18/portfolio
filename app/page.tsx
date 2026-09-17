@@ -5,7 +5,6 @@ import { ProjectsPreview } from "@/components/sections/ProjectsPreview";
 import { ExperiencePreview } from "@/components/sections/ExperiencePreview";
 import { EducationPreview } from "@/components/sections/EducationPreview";
 import { AchievementsPreview } from "@/components/sections/AchievementsPreview";
-import { ContactSection } from "@/components/sections/ContactSection";
 import { getLocale, getMessages } from "@/lib/i18n/server";
 
 export default async function Home() {
@@ -21,7 +20,6 @@ export default async function Home() {
       <ExperiencePreview locale={locale} messages={messages} />
       <EducationPreview locale={locale} messages={messages} />
       <AchievementsPreview locale={locale} messages={messages} />
-      <ContactSection locale={locale} messages={messages} />
     </>
   );
 }

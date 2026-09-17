@@ -20,8 +20,7 @@
   "explore": "Explorar",
   "visitSite": "Visitar site",
   "viewGithub": "GitHub",
-  "viewDemo": "Ver projeto",
-  "send": "Enviar mensagem"
+  "viewDemo": "Ver projeto"
   },
   "hero": {
   "codeLabel": "Perfil"
@@ -71,13 +70,7 @@
   "eyebrow": "Contato",
   "title": "Vamos construir algo",
   "pageTitle": "Contato",
-  "pageIntro": "Para projetos freelance, colaborações e oportunidades profissionais.",
-  "name": "Nome",
-  "email": "E-mail",
-  "message": "Mensagem",
-  "namePlaceholder": "Seu nome",
-  "emailPlaceholder": "seu@email.com",
-  "messagePlaceholder": "Conte um pouco sobre seu projeto..."
+  "pageIntro": "Para projetos freelance, colaborações e oportunidades profissionais."
   }
   },
   "status": {
@@ -120,9 +113,6 @@
   "footer": {
   "rights": "Gabriel Nardes. Todos os direitos reservados.",
   "builtWith": "Desenvolvido com Next.js"
-  },
-  "form": {
-  "notice": "Envie sua mensagem pelo formulário de contato."
   }
-  }
+}
   

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { profile } from "@/data/profile";
 import { Container } from "@/components/layout/Container";
-import { ContactForm } from "@/components/ui/ContactForm";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { SocialLinks } from "@/components/ui/SocialLinks";
 import { getLocale, getMessages } from "@/lib/i18n/server";
@@ -10,7 +9,7 @@ import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Email, GitHub, LinkedIn, and a contact form placeholder.",
+  description: "Email, GitHub, and LinkedIn.",
 };
 
 export default async function ContactPage() {
@@ -24,7 +23,7 @@ export default async function ContactPage() {
         title={messages.sections.contact.pageTitle}
         description={messages.sections.contact.pageIntro}
       />
-      <Container className="grid gap-12 py-16 lg:grid-cols-2">
+      <Container className="py-16">
         <ScrollReveal variant="up">
           <a
             href={`mailto:${profile.email}`}
@@ -39,9 +38,6 @@ export default async function ContactPage() {
             {localize(profile.availability, locale)}
           </p>
           <SocialLinks locale={locale} className="mt-8" />
-        </ScrollReveal>
-        <ScrollReveal variant="scale" delay={0.1}>
-          <ContactForm messages={messages} />
         </ScrollReveal>
       </Container>
     </>

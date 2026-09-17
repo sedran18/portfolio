@@ -10,6 +10,7 @@ type ButtonProps = {
   type?: "button" | "submit";
   className?: string;
   external?: boolean;
+  disabled?: boolean;
 };
 
 const variants = {
@@ -28,9 +29,10 @@ export function Button({
   type = "button",
   className = "",
   external = false,
+  disabled = false,
 }: ButtonProps) {
   const reduce = useReducedMotion();
-  const classes = `group/btn inline-flex items-center justify-center rounded-md border px-4 py-2.5 text-sm tracking-wide transition-[color,background-color,border-color,transform] duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent [&_svg]:transition-transform [&_svg]:duration-200 group-hover/btn:[&_svg]:translate-x-0.5 group-hover/btn:[&_svg]:-translate-y-0.5 ${variants[variant]} ${className}`;
+  const classes = `group/btn inline-flex items-center justify-center rounded-md border px-4 py-2.5 text-sm tracking-wide transition-[color,background-color,border-color,transform] duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-60 [&_svg]:transition-transform [&_svg]:duration-200 group-hover/btn:[&_svg]:translate-x-0.5 group-hover/btn:[&_svg]:-translate-y-0.5 ${variants[variant]} ${className}`;
 
   const motionProps = reduce
     ? {}
@@ -53,7 +55,7 @@ export function Button({
   }
 
   return (
-    <motion.button type={type} className={classes} {...motionProps}>
+    <motion.button type={type} className={classes} disabled={disabled} {...motionProps}>
       {children}
     </motion.button>
   );
