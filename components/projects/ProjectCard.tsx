@@ -18,7 +18,7 @@ type ProjectCardProps = {
 
 export function ProjectCard({ project, index, locale, messages }: ProjectCardProps) {
   const title = localize(project.title, locale);
-  const description = localize(project.shortDescription, locale);
+  const description = localize(project.description, locale);
   const link = project.demo ?? project.github;
   const reduce = useReducedMotion();
   const fromLeft = index % 2 === 0;
@@ -43,7 +43,7 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
             {title}
             <ArrowUpRight className="size-4 translate-y-px transition-transform duration-200 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
           </Link>
-        ) : null}
+        ) : null}short
       </div>
 
       <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-20">
@@ -58,7 +58,7 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
             src={project.image}
             alt={title}
             fill
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+            className="object-cover  transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
             sizes="(min-width: 1024px) 55vw, 100vw"
           />
         </motion.div>
