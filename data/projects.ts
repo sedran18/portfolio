@@ -35,7 +35,7 @@ export const projects: Project[] = [
       en: "Fleet management",
       "pt-BR": "Gestão de frotas",
     },
-    status: "in-progress",
+    status: "completed",
     featured: true,
     year: "2026",
     role: {
