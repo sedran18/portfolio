@@ -43,7 +43,7 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
             {title}
             <ArrowUpRight className="size-4 translate-y-px transition-transform duration-200 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
           </Link>
-        ) : null}short
+        ) : null}
       </div>
 
       <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-20">
@@ -112,3 +112,4 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
     </motion.article>
   );
 }
+
