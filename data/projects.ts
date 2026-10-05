@@ -62,6 +62,89 @@ export const projects: Project[] = [
       ],
     },
   },
+
+  {
+    id: "sedran-barber-shop",
+    
+    title: {
+    en: "Sedran Barber Shop",
+    "pt-BR": "Sedran Barber Shop",
+    },
+    
+    shortDescription: {
+    en: "Full-stack barber shop management platform with online scheduling, Pix payments, webhook-based confirmation, and administrative management.",
+    "pt-BR": "Plataforma full-stack para gestão de barbearia com agendamento online, pagamentos via Pix, confirmação por webhook e gerenciamento administrativo.",
+    },
+    
+    description: {
+    en: "Sedran Barber Shop is a full-stack web application developed to simulate the digital operation of a modern barbershop, connecting the customer booking experience with internal administrative management.\n\nThe platform allows customers to browse available services, select an available time, create an appointment, and complete payment through Pix. The payment flow is integrated with Mercado Pago, using webhooks to confirm transactions independently of the customer's browser state. This ensures that an appointment can be updated even if the customer closes the page or loses connection after initiating the payment.\n\nThe system also provides an administrative environment where the barber can manage appointments, view the agenda, monitor payments, and access operational and financial metrics. Appointments can also be created directly by the barber for customers who are physically at the establishment or who do not need to complete an online payment, while maintaining the same availability and conflict-prevention rules.\n\nFrom a technical perspective, the project was structured around Next.js App Router, Server Components, Server Actions, PostgreSQL, Prisma, Auth.js, and external API integration. The architecture separates client-facing interactions from sensitive server-side operations, while database constraints, validation, authentication, and business rules help maintain data consistency and application security.\n\nThe project demonstrates my ability to design and implement a complete application rather than only an interface: from modeling the domain and database to implementing business rules, authentication, payment integration, webhooks, administrative workflows, and production deployment.",
+    
+    "pt-BR": "O Sedran Barber Shop é uma aplicação web full-stack desenvolvida para simular a operação digital de uma barbearia moderna, conectando a experiência de agendamento do cliente ao gerenciamento interno do estabelecimento.\n\nA plataforma permite que o cliente consulte os serviços disponíveis, escolha um horário, realize o agendamento e efetue o pagamento via Pix. O fluxo de pagamento é integrado ao Mercado Pago e utiliza webhooks para confirmar as transações independentemente do estado da página do cliente. Dessa forma, o agendamento pode ser atualizado mesmo que o cliente feche a página ou perca a conexão após iniciar o pagamento.\n\nO sistema também possui um ambiente administrativo onde o barbeiro pode gerenciar os agendamentos, visualizar a agenda, acompanhar pagamentos e consultar métricas operacionais e financeiras. Além do fluxo online, o barbeiro pode criar diretamente um agendamento para clientes que estão presencialmente no estabelecimento ou que não precisam realizar um pagamento online, mantendo as mesmas regras de disponibilidade e prevenção de conflitos.\n\nDo ponto de vista técnico, o projeto foi estruturado utilizando Next.js App Router, Server Components, Server Actions, PostgreSQL, Prisma, Auth.js e integração com APIs externas. A arquitetura separa as interações da interface das operações sensíveis executadas no servidor, enquanto validações, autenticação e regras de negócio ajudam a garantir consistência dos dados e segurança da aplicação.\n\nO projeto demonstra minha capacidade de desenvolver uma aplicação completa, indo além da construção da interface: desde a modelagem do domínio e do banco de dados até a implementação de regras de negócio, autenticação, integração de pagamentos, webhooks, fluxos administrativos e deploy em produção.",
+    
+    },
+    
+    image: "/images/projects/sedran-barber-shop.png",
+    
+    technologies: [
+    "Next.js",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "PostgreSQL",
+    "Prisma",
+    "Supabase",
+    "Auth.js",
+    "Mercado Pago",
+    "Vercel",
+    ],
+    
+    category: {
+    en: "Business management",
+    "pt-BR": "Gestão empresarial",
+    },
+    
+    status: "completed",
+    
+    featured: true,
+    github: "https://github.com/sedran18/sedran-barber-shop",
+    year: "2026",
+    
+    role: {
+    en: "Full-stack developer",
+    "pt-BR": "Desenvolvedor full-stack",
+    },
+    
+    highlights: {
+    en: [
+      "Online appointment scheduling with availability control",
+      "Pix payment integration with Mercado Pago",
+      "Webhook-based payment confirmation",
+      "Administrative dashboard for appointments and payments",
+      "Direct appointment creation by the barber",
+      "Authentication and protected administrative operations",
+      "Business rules and validation for data consistency",
+      "Relational data modeling with PostgreSQL and Prisma",
+      "Responsive interface for desktop and mobile",
+      "Production deployment with Vercel",
+    ],
+    
+    "pt-BR": [
+      "Agendamento online com controle de disponibilidade",
+      "Integração de pagamentos via Pix com Mercado Pago",
+      "Confirmação de pagamentos por meio de webhooks",
+      "Dashboard administrativo para agendamentos e pagamentos",
+      "Criação direta de agendamentos pelo barbeiro",
+      "Autenticação e proteção das operações administrativas",
+      "Regras de negócio e validações para consistência dos dados",
+      "Modelagem de dados relacionais com PostgreSQL e Prisma",
+      "Interface responsiva para desktop e mobile",
+      "Deploy em produção com Vercel",
+    ],
+    
+    },
+    },
+
   {
     id: "vbeauty",
     title: {
