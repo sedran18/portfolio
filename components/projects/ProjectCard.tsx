@@ -18,7 +18,7 @@ type ProjectCardProps = {
 
 export function ProjectCard({ project, index, locale, messages }: ProjectCardProps) {
   const title = localize(project.title, locale);
-  const description = localize(project.description, locale);
+  const description = localize(project.shortDescription, locale);
   const link = project.demo ?? project.github;
   const reduce = useReducedMotion();
   const fromLeft = index % 2 === 0;
@@ -40,7 +40,7 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
             href={link}
             className="group/link inline-flex items-center gap-1.5 text-xl text-muted transition-colors duration-200 hover:text-foreground"
           >
-            {title}
+            Ver Projeto
             <ArrowUpRight className="size-4 translate-y-px transition-transform duration-200 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
           </Link>
         ) : null}
@@ -54,13 +54,15 @@ export function ProjectCard({ project, index, locale, messages }: ProjectCardPro
           transition={{ duration: 0.65, ease: easeOutExpo }}
           className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-transparent bg-surface-elevated transition-[border-color,box-shadow] duration-300 group-hover/project:border-white/10"
         >
-          <Image
-            src={project.image}
-            alt={title}
-            fill
-            className="object-cover  transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
-            sizes="(min-width: 1024px) 55vw, 100vw"
-          />
+          <Link href={link ?? ""} target="_blank" rel="noopener noreferrer">
+            <Image
+              src={project.image}
+              alt={title}
+              fill
+              className="object-cover  transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+              sizes="(min-width: 1024px) 55vw, 100vw"
+            />
+          </Link>
         </motion.div>
 
         <motion.div
